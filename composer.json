@@ -1,12 +1,14 @@
 {
-    "name": "laravel/laravel",
+    "name": "etsik/mobilelearning",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "Application to learn on mobile",
+    "keywords": ["e-learning", "mobile", "learning", "sandy", "razafitrimo", "etsik"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "doctrine/dbal": "^3.4",
         "guzzlehttp/guzzle": "^7.2",
+        "innocenzi/laravel-vite": "^0.2.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7"
