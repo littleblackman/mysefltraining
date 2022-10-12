@@ -1,0 +1,8 @@
+.demo {
+  border-radius: 10px;
+}
+.demo .perso {
+  color: yellow;
+  background: red;
+  border-right: 10px;
+}
