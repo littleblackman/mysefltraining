@@ -1,8 +1,13 @@
-.demo {
-  border-radius: 10px;
+* {
+  box-sizing: content-box;
 }
-.demo .perso {
-  color: yellow;
-  background: red;
-  border-right: 10px;
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #EFEFEF;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #185ADB;
 }

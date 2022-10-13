@@ -1,9 +1,15 @@
-.demo {
-    .perso {
-    color: yellow;
-    background: red;
-        border-right: 10px;
-    }
-    border-radius: 10px;
-    
+@import 'variables';
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $background-light;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: $first-color;
 }
