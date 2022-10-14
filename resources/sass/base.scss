@@ -1,0 +1,79 @@
+/** config page **/
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $background-light;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px; padding: 0px; color: $first-color;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+#overScreen {
+    background-color: lightgray;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 998;
+    opacity: 0.9;
+    width: 100%;
+    display: none;
+}
+
+#splashScreen {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    display: none;
+}
+
+
+
+/** top menu **/
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#topHeader {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: $currentPadding;
+    z-index: 997;
+    background-color: $background-light;
+
+    .title {
+        font-size: 2rem;
+        font-weight: 800;
+        color: $first-color;
+    }
+
+    .icon_menu i {
+        font-size: 2.2rem;
+    }
+}
+
+/** main container **/
+
+main {
+    padding: $currentPadding;
+    margin-top: 60px;
+}

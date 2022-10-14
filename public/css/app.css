@@ -1,3 +1,4 @@
+/** config page **/
 * {
   box-sizing: content-box;
 }
@@ -7,7 +8,71 @@ body {
   background-color: #EFEFEF;
 }
 
-h1, h2 {
-  font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
   color: #185ADB;
 }
+
+h1 {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+#overScreen {
+  background-color: lightgray;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 998;
+  opacity: 0.9;
+  width: 100%;
+  display: none;
+}
+
+#splashScreen {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  display: none;
+}
+
+/** top menu **/
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#topHeader {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  z-index: 997;
+  background-color: #EFEFEF;
+}
+#topHeader .title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #185ADB;
+}
+#topHeader .icon_menu i {
+  font-size: 2.2rem;
+}
+
+/** main container **/
+main {
+  padding: 10px;
+  margin-top: 60px;
+}
+
+/** home page **/

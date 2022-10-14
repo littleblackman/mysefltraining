@@ -1,15 +1,6 @@
 @import 'variables';
+@import 'base';
+@import "pages/home";
 
-* {
-    box-sizing: content-box;
-}
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: $background-light;
-}
 
-h1, h2 {
-    font-weight: bold;
-    color: $first-color;
-}

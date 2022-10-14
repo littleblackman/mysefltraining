@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="css/normalize.css" rel="stylesheet">
@@ -19,10 +20,18 @@
 </head>
 
 <body>
+    <div id="overScreen"></div>
+    <div id="splashScreen"></div>
+
     <header>
-        <nav>
-            <h1>Move Your Self Training</h1>
-        </nav>
+        <div id="topHeader">
+            <div class="title">
+                MYST
+            </div>
+            <div class="icon_menu">
+                <i class="material-icons">menu</i>
+            </div>
+        </div>
     </header>
     <main>
         @yield('content')

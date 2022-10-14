@@ -2,5 +2,8 @@
 
 
 @section('content')
-    <p>This is my body content.</p>
+   <h1>Move YourSelf Training</h1>
+
+
+
 @endsection
