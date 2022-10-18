@@ -42,6 +42,9 @@ h2 {
     display: none;
 }
 
+.center {
+    text-align: center;
+}
 
 
 /** top menu **/
@@ -76,4 +79,8 @@ header {
 main {
     padding: $currentPadding;
     margin-top: 60px;
+
+    img {
+        width: 100%;
+    }
 }

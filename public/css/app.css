@@ -44,6 +44,10 @@ h2 {
   display: none;
 }
 
+.center {
+  text-align: center;
+}
+
 /** top menu **/
 header {
   position: fixed;
@@ -73,6 +77,9 @@ header {
 main {
   padding: 10px;
   margin-top: 60px;
+}
+main img {
+  width: 100%;
 }
 
 /** home page **/
