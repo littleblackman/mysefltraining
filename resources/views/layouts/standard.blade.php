@@ -15,6 +15,7 @@
 
     <!-- Template Main CSS File -->
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/materialize.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
 
 </head>
@@ -26,7 +27,9 @@
     <header>
         <div id="topHeader">
             <div class="title">
-                MYST
+                <a href="{{route('home')}}">
+                    MYST
+                </a>
             </div>
             <div class="icon_menu">
                 <i class="material-icons">menu</i>

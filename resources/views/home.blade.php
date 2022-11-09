@@ -20,6 +20,6 @@
         Et à la fin de chaque cours vous aurez une évalution de vos connaissances.
     </p>
 
-    <button></button>
+   <a href="{{ route('dashboard.index') }}" class="btn btn-large">Accédez aux cours</a>
 
 @endsection
