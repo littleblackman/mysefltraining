@@ -82,4 +82,12 @@ main img {
   width: 100%;
 }
 
+/*** overide materialize ***/
+ul.collection {
+  border: 0px solid white;
+}
+ul.collection .collection-item {
+  background-color: transparent;
+}
+
 /** home page **/

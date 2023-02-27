@@ -18,3 +18,4 @@ use App\Http\Controllers\DashboardController;
 Route::view('/', 'home')->name('home');
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');
 
+Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard.index');

@@ -84,3 +84,13 @@ main {
         width: 100%;
     }
 }
+
+
+/*** overide materialize ***/
+ul.collection {
+    border: 0px solid white;
+
+    .collection-item {
+        background-color: transparent;
+    }
+}

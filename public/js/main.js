@@ -15,7 +15,7 @@
   \******************************/
 /***/ (() => {
 
-eval("console.log('hello main');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb25zb2xlIiwibG9nIl0sInNvdXJjZXMiOlsid2VicGFjazovL21vYmlsZS10cmFpbmluZy8uL3Jlc291cmNlcy9qcy9tYWluLmpzP2ZkYWMiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ2hlbGxvIG1haW4nKTtcbiJdLCJtYXBwaW5ncyI6IkFBQUFBLE9BQU8sQ0FBQ0MsR0FBRyxDQUFDLFlBQVksQ0FBQyIsImZpbGUiOiIuL3Jlc291cmNlcy9qcy9tYWluLmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/main.js\n");
+eval("console.log('hello main');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb25zb2xlIiwibG9nIl0sInNvdXJjZXMiOlsid2VicGFjazovL215c3QvLi9yZXNvdXJjZXMvanMvbWFpbi5qcz9mZGFjIl0sInNvdXJjZXNDb250ZW50IjpbImNvbnNvbGUubG9nKCdoZWxsbyBtYWluJyk7XG4iXSwibWFwcGluZ3MiOiJBQUFBQSxPQUFPLENBQUNDLEdBQUcsQ0FBQyxZQUFZLENBQUMiLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvbWFpbi5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/main.js\n");
 
 /***/ })
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -13,7 +14,9 @@ class DashboardController extends Controller
      */
     public function index(Request $request)
     {
-        return view('dashboard.index');
+
+        $courses = Course::where('status', '=', 'online')->orderBy('course_order')->get();
+        return view('dashboard.index', ['courses' => $courses]);
     }
 
 
